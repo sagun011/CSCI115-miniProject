@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Housing Details</title>
+    <style>
+body {
+	background-image: url(details/back-ground.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+}
+table {
+            border-collapse: collapse;
+            width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 45px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+        
+    </style>
+</head>
+<body>
+    <h1>Housing Details</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Factors</th>
+            <th colspan="2">Types of Housing</th>
+            <th rowspan="2">Examples</th>
+        </tr>
+        <tr>
+            <th>Owned</th>
+            <th>Rented</th>
+        </tr>
+        <tr>
+            <td>Ownership</td>
+            <td>Single-family</td>
+            <td>Apartment</td>
+            <td>House, Condo</td>
+        </tr>
+        <tr>
+            <td>Occupancy</td>
+            <td>Primary Residence</td>
+            <td>Primary Residence</td>
+            <td>House, Apartment</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Vacation Home</td>
+            <td>Secondary Residence</td>
+            <td>Cabin, Beach House</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Investment Property</td>
+            <td>Investment Property</td>
+            <td>Rental Property</td>
+        </tr>
+        <tr>
+            <td>Size</td>
+            <td>Large</td>
+            <td>Small</td>
+            <td>Mansion, Estate</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Medium</td>
+            <td>Micro</td>
+            <td>House, Townhome</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Rural</td>
+            <td>Urban</td>
+            <td>Farmhouse, Ranch</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Suburban</td>
+            <td></td>
+            <td>House, Townhome</td>
+        </tr>
+    </table>
+    <a href="Housee.html"><button type="button"><span></span>Back to HOME</button></a>
+</body>
+</html>
